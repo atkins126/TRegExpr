@@ -6,6 +6,23 @@
                                      (-) - bugfix
                                      (^) - improvement
 
+ v. 1.152 2021.05.26
+ -=- (-) Fix match empty strings (e.g. by '^$'). By Alexey Torgashin.
+
+ v. 1.151 2021.03.24
+ -=- (-) Fix for Substitute method and named groups. By @chrisgch.
+
+ v. 1.150 2021.02.08
+ -=- (-) Setters of Modifier* properties now invalidate the opcode.
+
+ v. 1.149 2021.01.08
+ -=- (-) Allow underscore char to be escaped '\_'. Other word-chars are
+ not allowed. By Alexey Torgashin.
+
+ v. 1.148 2020.09.29
+ -=- (-) Fixed broken ^ and $ if UseLinePairedBreak=False.
+  By Alexey Torgashin.
+
  v. 1.147 2020.09.13
  -=- (+) Added support for negative lookbehind: (?<!foo)bar.
  -=- (^) Added IsFixedLength() to detect regex with fixed length match.
